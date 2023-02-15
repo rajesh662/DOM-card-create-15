@@ -1,0 +1,63 @@
+img{
+    width: 100%;
+}
+h4{
+    font-size: 16px;
+    
+}
+p{
+    font-size: 13px;
+    padding-bottom: 5px;
+    
+}
+div a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+div a:hover{
+    color: black;
+}
+div i{
+    background-color: aqua;
+    padding: 6px;
+    color: white;
+}
+.li-handle i{
+    background-color: white;
+    color: rgb(88, 42, 42);
+
+}
+.li-handle{
+    padding-top: 10px;
+    border-top: 1px solid rgb(198, 218, 238);
+}
+.li-handle a{
+    color: rgb(88, 42, 42);
+    font-weight: 500;
+}
+.card-quick{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgb(198, 218, 238);
+}
+.card-quick a{
+    color: blue;
+    font-weight: 600;
+}
+.card-quick{
+    display: none;
+}
+.col-3:hover .card-quick{
+ display: block;
+}
+.col-3:hover{
+    
+box-shadow: 0 1px 2px 0 rgb(198, 218, 238),0 1px 2px 0 rgb(198, 218, 238);
+    
+}
+.col-3{
+    height: 70vh;
+    margin: 20px 0;
+    padding-top: 20px;
+}
